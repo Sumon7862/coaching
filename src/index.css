@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+
+
+@layer components{
+
+.container1{
+    @apply px-[100px]
+}
+
+}
+
+
+@theme{
+
+    --color-navber : #fbbf24;
+    --color-bannarOne :#F5F5F5;
+    --color-bannarTwo :#fff;
+    --color-textnew :#000;
+}
